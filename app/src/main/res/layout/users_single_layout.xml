@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical"><![CDATA[
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    ]]>
+
+                  <de.hdodenhof.circleimageview.CircleImageView
+                      android:id="@+id/user_single_image"
+                      android:layout_width="80dp"
+                      android:layout_height="80dp"
+                      android:layout_alignParentStart="true"
+                      android:layout_alignParentTop="true"
+                      android:layout_marginStart="10dp"
+                      android:layout_marginTop="10dp"
+                      android:layout_marginEnd="10dp"
+                      android:layout_marginBottom="10dp"
+                      android:src="@mipmap/ic_user_round" />
+
+    <TextView
+        android:id="@+id/user_single_name"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="7dp"
+        android:text="Display Name"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/user_single_status"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_single_name"
+        android:layout_alignBottom="@+id/user_single_image"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="8dp"
+        android:text="Display Status"
+        android:textSize="18sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_single_online_look"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignEnd="@+id/user_single_status"
+        android:layout_centerVertical="true"
+        android:src="@android:color/holo_green_light"
+        android:visibility="gone"
+        app:backgroundTint="@android:color/holo_green_light" />
+
+
+</RelativeLayout>
+

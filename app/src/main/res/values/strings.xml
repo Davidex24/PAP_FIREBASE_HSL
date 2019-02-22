@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">pap_firebase_hsl</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="all_users">All users</string>
+    <string name="account_settings">Account Settings</string>
+</resources>

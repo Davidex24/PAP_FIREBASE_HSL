@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "825298386344",
+    "firebase_url": "https://helpingstudentslives.firebaseio.com",
+    "project_id": "helpingstudentslives",
+    "storage_bucket": "helpingstudentslives.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825298386344:android:8a082a69f3e108f3",
+        "android_client_info": {
+          "package_name": "com.hsl_firebase.alves.pap_firebase_hsl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825298386344-a97dlvkd9e2772jq7muhfo856sku9nnj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hsl_firebase.alves.pap_firebase_hsl",
+            "certificate_hash": "60caed91d9f8a355dec0a5ed9514ac5958fe442e"
+          }
+        },
+        {
+          "client_id": "825298386344-puk24cprp04v1m3d2frcpublrq27o4vq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRStttWF6Pmlt3-xJh_76789E-4ZJKc-g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825298386344-puk24cprp04v1m3d2frcpublrq27o4vq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
